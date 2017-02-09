@@ -18,8 +18,9 @@ console.log (howManyLetters);
 where x represents the value at `longestPlaceName` and y represents the value at `howManyLetters`*/
 
 
-
-console.log (longestPlaceName + " is the longest place name in the world and has " + howManyLetters + " letters in its name.";
+var x = longestPlaceName;
+var y = howManyLetters;
+console.log (x + " is the longest place name in the world and has " + howManyLetters + " letters in its name.");
 
 /*The string.charAt() method returns the character at the specified index (position).*/
 
@@ -46,7 +47,7 @@ console.log(worldLocator);
 
 var edward = "People are afraid of me because I am different";
 var scissorHand = edward.slice(7, 17);
-console.log(scissorHand;)
+console.log(scissorHand);
 
 
 /*The replace() method replaces a specified value with another value in a string.*/
@@ -63,6 +64,8 @@ console.log(theSifu);
 /*6. Declare a variable named `smallKine` that will convert the string below to all lower case. Console.log your result.*/
 
 var bigTime = "BRUuHHHH, I AM DA GreaTest!";
+var smallKine = bigTime.toLowerCase();
+console.log(smallKine);
 
 
 
@@ -71,7 +74,8 @@ var bigTime = "BRUuHHHH, I AM DA GreaTest!";
 /*7. Declare a variable named `bigBand` that will convert the string below to all upper case. Console.log your result.*/
 
 var bandName = "the beatles";
-
+var bigBand = bandName.toUpperCase();
+console.log(bigBand);
 
 
 /*The split() method converts a string into an array, by separating the string into substrings.*/
@@ -90,12 +94,14 @@ console.log(oreoList);
 
 var drinkMenu = "rum, gin, vodka, kool-aid, haterade";
 var favDrink = drinkMenu.substr(5, 3);
-console.log(favDrin);
+console.log(favDrink);
 
 /* You can also use:
 var favDrink = drinkMenu.substring(5, 8);
 */
 
+var favDrink = drinkMenu.substring(5, 8);
+console.log(favDrink);
 
 
        
